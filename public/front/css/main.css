@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap');
+:root {
+    --main--color:#6F011C;
+}
+
+body {
+    font-family: 'Almarai', sans-serif;
+}
+/* Start Navbar */
+.navbar {
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+}
+.navbar .nav-item .nav-link {
+    margin-right: 2px !important;
+    margin-left: 2px !important;
+    font-weight: 500;
+    padding: 1.5rem !important;
+}
+.navbar .nav-item .nav-link.active {
+   background-color: var(--main--color) !important;
+   color: #fff !important;
+}
+.navbar .nav-item .nav-link:hover {
+   background-color: var(--main--color) !important;
+   color: #fff !important;
+}
+/* End Navbar */
+
+/* Start Hero */
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    background-image: url('../img/heroback.png');
+    background-position: center;
+    background-size: cover;
+}
+.cat-hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    background-position: center;
+    background-size: cover;
+}
+/* End Hero */
+
+/* Start Features */
+.features {
+    background-image: url('../img/featuresback.png');
+    background-position: center;
+    background-size: cover;
+}
+/* End Features */
+
+/* Classes */
+.btn {
+    padding: .75rem 2.55rem;
+}
+.btn-primary {
+    background-color: #6F011C !important;
+    border: 1px solid var(--main--color);
+}
+.btn-primary:hover {
+    border: 1px solid var(--main--color) !important;
+}
+.py-100 {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.text-primary {
+    color: var(--main--color) !important;
+}
+.py-80 {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+.rounded {
+    border-radius: 8px !important;
+}
+.fw-bold {
+    font-weight: 600 !important;
+}
+.form-control:focus {
+    box-shadow: none !important;
+    border-color: #ddd !important;
+}
+.bg-primary {
+    background-color: var(--main--color) !important;
+}
+.btn-light {
+    background-color: rgb(245, 245, 245);
+}
+.btn-light:hover {
+    background-color: #6F011C;
+    color: #fff;
+}
